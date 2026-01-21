@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservations – La Royale</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <h2 class="logo">La Royale</h2>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a class="active" href="reservation.html">Reservations</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="reservation-section">
+  <h2 class="section-title">Reserve a Table</h2>
+  <p class="section-subtitle">Experience fine dining with sophistication</p>
+
+  <form id="reserveForm" class="reservation-form">
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="number" id="guests" placeholder="Number of Guests">
+    <input type="date" id="date">
+    <input type="time" id="time">
+    <button type="submit" class="btn-primary">Book Now</button>
+    <p id="reserveStatus"></p>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 La Royale Fine Dining | Crafted for Elegance</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
